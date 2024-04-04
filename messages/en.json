@@ -1,0 +1,104 @@
+{
+    "Locale": {
+        "language": "Language",
+        "key": "en"
+    },
+    "Navbar": {
+        "home": "Home",
+        "about": "About",
+        "articles": "Articles",
+        "blog": "Blog",
+        "projects": "Portfolio",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "up": "Hi, I'm",
+        "title": "Matias Vallejos",
+        "subtitle": "Full Stack Developer",
+        "description": "From the soccer field⚽ to code💻 Argentine web developer 🇦🇷 shaping the digital future. I don't just code, I create solutions. Driving national technological Capitalism without borders.",
+        "available": "Available for work"
+    },
+    "Buttons": {
+        "knowMore": "Know me better..",
+        "contactMe": "Let's work together",
+        "downloadCV": "Download CV",
+        "checkMyWork": "Check my work",
+        "viewBlog": "See more.. ✍🏻",
+        "viewProjects": "See more projects.. 🚀",
+        "goProjects": "Go to projects",
+        "supportGithub": "Support me on Github",
+        "buyMeACoffee": "Buy me a coffee",
+        "viewProduction": "View Production",
+        "downloadApk": "Download APK",
+        "viewCode": "View Code",
+        "all": "All",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "videogames": "Videogames",
+        "videogame": "Videogames",
+        "bot": "Bot",
+        "ai": "AI",
+        "deeplearning": "Deep Learning",
+        "fullstack": "Full Stack",
+        "languages": "Language",
+        "frameworks": "Framework",
+        "databases": "Database",
+        "cloud": "Cloud",
+        "tools": "Tools",
+        "others": "Other"
+    },
+    "Projects": {
+        "title": "Portfolio",
+        "subtitle": "Turning imagination into code 🚀"
+    },
+    "Strategy":{
+        "s1_title": "Strategy",
+        "s2_title": "Planning",
+        "s3_title": "Development",
+        "s4_title": "Deployment"
+    },
+    "Blog": {
+        "title": "Blog",
+        "subtitle": "I share my experiences and learnings in my blog 📝"
+    },
+    "Stats":{
+        "title": "Stats",
+        "subtitle": "Some statistics about my github 📊",
+        "stars": "Total stars earned",
+        "commits": "Total commits 2024",
+        "pullrequest": "Total pull requests",
+        "issues": "Total issues",
+        "projects": "Total projects"
+    },
+    "About": {
+        "title": "About me",
+        "subtitle": "Welcome to my personal space 🚀"
+    },
+    "Skills": {
+        "title": "Skills",
+        "subtitle": "I'm always looking for new challenges and opportunities to learn new things 📚"
+    },
+    "Articles": {
+        "title": "Articles",
+        "subtitle": "I share my experiences and learnings in my blog 📝",
+        "readTimeText": "reading minutes."
+    },
+    "Education": {
+        "title": "Education",
+        "subtitle": "Know my path 🎓"
+    },
+    "Certifications": {
+        "title": "Certifications",
+        "subtitle": "Certifications I have obtained 🏅",
+        "start": "Issued",
+        "end": "Expires"
+    },
+    "Contact": {
+        "title": "Contact",
+        "subtitle": "Don't hesitate to contact me 📥"
+    },
+    "Links": {
+        "cv": "https://docs.google.com/document/d/1QpEVeJnJwLNB83ML0AEA7FVf6GPKbx7RX6-llMXEr8c/edit?usp=drive_link"
+    }
+}

@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Brand Website with Next.js 13 and TailwindCSS
 
-## Getting Started
+Modern web platform for showcasing your personal brand, built with Next.js 13 and TailwindCSS.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is your personal brand's digital space, allowing you to showcase your skills, projects, and experiences as a developer. It is developed using the latest version of Next.js (v13) and styled with TailwindCSS, providing a modern and responsive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you would like to contribute to this project, please follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Open a pull request with a detailed description of your changes.
 
-## Learn More
+Your contributions are greatly appreciated!
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For any inquiries or feedback, feel free to reach out:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Name:** Matias Vallejos
+- **GitHub:** [@matiavallejosdev](https://github.com/matiavallejosdev)
+- **Email:** [matiasvallejosdev@outlook.com](mailto:matiasvallejosdev@outlook.com)
 
-## Deploy on Vercel
+Thank you for your interest in the Personal Brand Website project! Your feedback and contributions are highly valued.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for using the Personal Brand Website built with Next.js 13 and TailwindCSS to establish and strengthen your personal brand. We hope this platform provides a compelling and professional representation of your skills and experiences. Your feedback and contributions are highly appreciated, and we look forward to enhancing this platform with your support!

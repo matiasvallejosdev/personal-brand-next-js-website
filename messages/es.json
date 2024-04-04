@@ -1,0 +1,104 @@
+{
+    "Locale": {
+        "language": "Idioma",
+        "key": "es"
+    },
+    "Navbar": {
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "articles": "Artículos",
+        "blog": "Blog",
+        "projects": "Portafolio",
+        "resume": "Curriculum",
+        "contact": "Contacto"
+    },
+    "Hero": {
+        "up": "Hola, soy",
+        "title": "Matias Vallejos",
+        "subtitle": "Desarrollador Full Stack",
+        "description": "De la cancha⚽ al código💻 Desarrollador web argentino 🇦🇷 construyendo el futuro digital. No solo codifico, creo soluciones. Impulsando al Capitalismo tecnológico nacional sin fronteras.",
+        "available": "Disponible para trabajar"
+    },
+    "Buttons": {
+        "knowMore": "Conóceme más..",
+        "contactMe": "Trabajemos juntos",
+        "downloadCV": "Descargar CV",
+        "checkMyWork": "Ver mis trabajos",
+        "viewBlog": "Ver más.. ✍🏻",
+        "viewProjects": "Ver más proyectos.. 🚀",
+        "goProjects": "Ir a proyectos",
+        "supportGithub": "Apoyame en Github",
+        "buyMeACoffee": "Invitame un café",
+        "viewProduction": "Ver Producción",
+        "viewCode": "Ver Código",
+        "downloadApk": "Descargar APK",
+        "all": "Todo",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "videogames": "Videojuegos",
+        "videogame": "Videojuego",
+        "bot": "Bot",
+        "ai": "IA",
+        "deeplearning": "Aprendizaje Profundo",
+        "fullstack": "Full Stack",
+        "languages": "Lenguajes",
+        "frameworks": "Frameworks",
+        "databases": "Bases de Datos",
+        "cloud": "Nube",
+        "tools": "Herramientas",
+        "others": "Otros"
+    },
+    "Projects": {
+        "title": "Portafolio",
+        "subtitle": "Transformando la imaginación en código 🚀"
+    },
+    "Strategy":{
+        "s1_title": "Estrategia",
+        "s2_title": "Planificación",
+        "s3_title": "Desarrollo",
+        "s4_title": "Implementación"
+    },
+    "Blog": {
+        "title": "Blog",
+        "subtitle": "Comparto mis experiencias y aprendizajes 📝"
+    },
+    "Stats": {
+        "title": "Estadísticas",
+        "subtitle": "Algunas estadísticas sobre mi GitHub 📊",
+        "stars": "Total de estrellas obtenidas",
+        "commits": "Total de commits en 2024",
+        "pullrequest": "Total de pull requests",
+        "issues": "Total issues",
+        "projects": "Total de proyectos"
+    },
+    "About": {
+        "title": "Sobre mi",
+        "subtitle": "Bienvenido a mi espacio personal 🚀"
+    },
+    "Skills": {
+        "title": "Habilidades",
+        "subtitle": "Siempre estoy buscando nuevos desafíos y oportunidades para aprender cosas nuevas 📚"
+    },
+    "Articles": {
+        "title": "Artículos",
+        "subtitle": "Comparto mis experiencias y aprendizajes en mi blog 📝",
+        "readTimeText": "minutos de lectura."
+    },
+    "Education": {
+        "title": "Educación",
+        "subtitle": "Conoce mi trayectoria 🎓"
+    },
+    "Certifications": {
+        "title": "Certificaciones",
+        "subtitle": "Certificaciones que he obtenido 🏅",
+        "start": "Expedición",
+        "end": "Vencimiento"
+    },
+    "Contact": {
+        "title": "Contacto",
+        "subtitle": "No dudes en contactarme 📥"
+    },
+    "Links": {
+        "cv": "https://docs.google.com/document/d/1QpEVeJnJwLNB83ML0AEA7FVf6GPKbx7RX6-llMXEr8c/edit?usp=drive_link"
+    }
+}
