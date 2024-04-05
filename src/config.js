@@ -1,7 +1,7 @@
 module.exports.SITE = {
   name: 'Matias Vallejos',
 
-  origin: 'matiasvallejos.com',
+  origin: 'https://matiasvallejos.com/',
   basePathname: '/',
   trailingSlash: false,
 

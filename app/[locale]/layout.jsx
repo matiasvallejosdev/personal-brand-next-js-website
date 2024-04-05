@@ -26,10 +26,10 @@ export default function RootLayout({ children, params: { locale } }) {
       <head>
         <link rel="icon" href="/static/favicon.ico" />
 
-        <meta property="og:url" content="https://matiasvallejos.com/" />
+        <meta property="og:url" content={SITE.origin} />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Matias Vallejos - Full Stack Web Developer 🇦🇷" />
-        <meta property="og:description" content="Let's explore my personal site! 🚀" />
+        <meta property="og:title" content={SITE.title} />
+        <meta property="og:description" content={SITE.description} />
         <meta
           property="og:image"
           content="https://opengraph.b-cdn.net/production/documents/2e9e4522-425e-4bd2-9665-d4b5f5f33565.png?token=vhAVX5a_ezZ8CjVDqH6rGolG-qXo4CtYqC3H_mvZc7w&height=750&width=750&expires=33248333306"
@@ -37,9 +37,9 @@ export default function RootLayout({ children, params: { locale } }) {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="matiasvallejos.com" />
-        <meta property="twitter:url" content="https://matiasvallejos.com/" />
-        <meta name="twitter:title" content="Matias Vallejos - Full Stack Web Developer 🇦🇷" />
-        <meta name="twitter:description" content="Let's explore my personal site! 🚀" />
+        <meta property="twitter:url" content={SITE.origin} />
+        <meta name="twitter:title" content={SITE.title} />
+        <meta name="twitter:description" content={SITE.description} />
         <meta
           name="twitter:image"
           content="https://opengraph.b-cdn.net/production/documents/2e9e4522-425e-4bd2-9665-d4b5f5f33565.png?token=vhAVX5a_ezZ8CjVDqH6rGolG-qXo4CtYqC3H_mvZc7w&height=750&width=750&expires=33248333306"
