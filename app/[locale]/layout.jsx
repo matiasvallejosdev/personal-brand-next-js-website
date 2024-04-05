@@ -16,22 +16,7 @@ const customFont = CustomFont({
 export const metadata = {
   title: SITE.title,
   description: SITE.description,
-  keywords: SITE.keywords,
-  openGraph: {
-    type: 'website',
-    url: `https://${SITE.origin}`,
-    site_name: SITE.name,
-    title: SITE.title,
-    description: SITE.description,
-    images: [
-      {
-        url: `https://${SITE.origin}/static/og-image.jpg`,
-        width: 500,
-        height: 500,
-        alt: SITE.title,
-      },
-    ],
-  },
+  keywords: SITE.keywords
 };
 
 export default function RootLayout({ children, params: { locale } }) {
@@ -39,11 +24,12 @@ export default function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} className={`${customFont.variable}`}>
       <head>
-        <title>{SITE.title}</title>
         <link rel="icon" href="/static/favicon.ico" />
       </head>
       <body className={`relative ${customFont.className} antialiased`}>
-          <Providers messages={messages} locale={locale}>{children}</Providers>
+        <Providers messages={messages} locale={locale}>
+          {children}
+        </Providers>
       </body>
     </html>
   );
