@@ -5,7 +5,7 @@ export default function Providers({ children, messages, locale}) {
   return (
     <>
       <NextIntlClientProvider messages={messages} locale={locale}>
-        <ThemeModeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeModeProvider attribute="class" defaultTheme="light" enableSystem>
           {children}
         </ThemeModeProvider>
       </NextIntlClientProvider>
