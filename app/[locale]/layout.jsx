@@ -16,7 +16,14 @@ const customFont = CustomFont({
 export const metadata = {
   title: SITE.title,
   description: SITE.description,
-  keywords: SITE.keywords
+  keywords: SITE.keywords,
+  openGraph: {
+    type: 'website',
+    url: `https://${SITE.origin}`,
+    site_name: SITE.name,
+    title: SITE.title,
+    description: SITE.description
+  },
 };
 
 export default function RootLayout({ children, params: { locale } }) {

@@ -1,7 +1,7 @@
 module.exports.SITE = {
-  name: 'Personal Brand Website',
+  name: 'Matias Vallejos - Personal Site',
 
-  origin: 'matiasvallejos.vercel.app',
+  origin: 'matiasvallejos.com',
   basePathname: '/',
   trailingSlash: false,
 
