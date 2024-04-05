@@ -18,6 +18,7 @@ export const metadata = {
   description: SITE.description,
   keywords: SITE.keywords,
   openGraph: {
+    type: 'website',
     url: `https://${SITE.origin}`,
     site_name: SITE.name,
     title: SITE.title,
