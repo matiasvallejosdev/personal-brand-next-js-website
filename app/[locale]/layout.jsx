@@ -22,7 +22,15 @@ export const metadata = {
     url: `https://${SITE.origin}`,
     site_name: SITE.name,
     title: SITE.title,
-    description: SITE.description
+    description: SITE.description,
+    images: [
+      {
+        url: `https://${SITE.origin}/static/og-image.jpg`,
+        width: 500,
+        height: 500,
+        alt: SITE.title,
+      },
+    ],
   },
 };
 
