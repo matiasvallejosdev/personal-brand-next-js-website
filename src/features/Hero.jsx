@@ -38,7 +38,7 @@ export default function Hero() {
             </Link>
           </Button>
           <div className="w-full flex justify-between items-start py-2 gap-2">
-            <div className="flex gap-2">
+            <div className="flex gap-4 flex-col sm:flex-row sm:gap-2">
               <Button size="default" variant="default" className="w-auto flex gap-2 items-center">
                 <IconMail size={22} />
                 <Link href="/#contact" target="_parent">

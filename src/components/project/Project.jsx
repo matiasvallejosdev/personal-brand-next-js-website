@@ -18,32 +18,38 @@ import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/h
 
 import { formatDate } from '@/utils/utils';
 
-export function HoverTitle({ title, description, date, locale, tags, link, sethover }) {
+export function HoverTitle({ title, description, date, locale, tags, sethover }) {
   return (
     <HoverCard>
       <HoverCardTrigger asChild>
-        <Button variant="link" className="p-0 text-white cursor-default">
-          <Link href={link} target="_blank">{title}</Link>
+        <Button
+          variant="link"
+          className="p-0 text-white cursor-default text-sm"
+          onMouseEnter={() => sethover(false)}
+          onMouseLeave={() => sethover(true)}
+        >
+          {title}
         </Button>
       </HoverCardTrigger>
-      <HoverCardContent className="w-80 md:w-96 cursor-default"
-      onMouseEnter={() => sethover(false)}
-      onMouseLeave={() => sethover(true)}
+      <HoverCardContent
+        className="w-80 md:w-96 cursor-default"
+        onMouseEnter={() => sethover(false)}
+        onMouseLeave={() => sethover(true)}
       >
         <div className="flex justify-between space-x-4">
           <div className="space-y-1 flex flex-col gap-2">
+            <div className="flex items-center gap-1">
+              <IconCalendar className="h-4 w-4 opacity-70" />{' '}
+              <span className="text-xs text-muted-foreground">{formatDate(date, locale)}</span>
+            </div>
             <h4 className="text-base font-semibold pt-1">{title}</h4>
-            <Card className="shadow-none rounded-lg border-none p-0">
+            <p className="text-sm pb-1.5">{description}</p>
+            <div className="shadow-none rounded-lg border-none p-0">
               <div className="flex flex-wrap gap-1">
                 {tags.map((tag, index) => {
                   return <Tag key={index} name={tag} />;
                 })}
               </div>
-            </Card>
-            <p className="text-sm pb-1.5">{description}</p>
-            <div className="flex items-center gap-1">
-              <IconCalendar className="h-4 w-4 opacity-70" />{' '}
-              <span className="text-xs text-muted-foreground">{formatDate(date, locale)}</span>
             </div>
           </div>
         </div>
@@ -90,30 +96,23 @@ export default function Project({ project }) {
             onMouseLeave={() => setHover(false)}
           >
             <div className="absolute top-0 left-0 flex justify-between p-3 w-full z-10 h-auto">
-              <Button
-                variant="outline"
-                size="icon"
-                className="w-auto h-auto p-1.5 rounded-lg text-sm"
-                onMouseEnter={() => setHover(false)}
-                onMouseLeave={() => setHover(true)}
-              >
-                <Link href={github} target="_blank" aria-label={github}>
-                  <IconBrandGithub size={14} />
-                </Link>
-              </Button>
-              {slug && (
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="w-auto h-auto p-1.5 rounded-lg"
+              <div></div>
+              <div className="flex justify-center items-center gap-1">
+                <Link
+                  href={github}
+                  target="_blank"
+                  aria-label={github}
                   onMouseEnter={() => setHover(false)}
                   onMouseLeave={() => setHover(true)}
+                  className="bg-background p-2 rounded-full
+                transition duration-300 ease-in-out hover:scale-125 transform hover:shadow-lg shadow-none
+                hover:bg-zinc-200 dark:hover:bg-zinc-800
+                opacity-90 hover:opacity-100
+                "
                 >
-                  <Link href={slug}>
-                    <IconNotes size={14} />
-                  </Link>
-                </Button>
-              )}
+                  <IconBrandGithub size={14} />
+                </Link>
+              </div>
             </div>
             <div className={`aspect-w-16 aspect-h-9 w-full h-full`}>
               <Link href={link} target="_blank" aria-label={title}>
@@ -145,7 +144,9 @@ export default function Project({ project }) {
             <div className="w-full">
               <Button
                 variant="outline"
-                className={`rounded-lg shadow-none w-full ${hover ? 'bg-zinc-100 dark:bg-zinc-800' : ''}`}
+                className={`rounded-lg shadow-none w-full
+                  transition duration-300 ease-in-out
+                 ${hover ? 'bg-zinc-200 dark:bg-zinc-800' : ''}`}
               >
                 <Link href={link} target="_blank" className="flex gap-2 w-full justify-center items-center">
                   <IconExternalLink size={18} />

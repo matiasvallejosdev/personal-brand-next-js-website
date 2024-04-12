@@ -13,9 +13,10 @@ export default function Video({ srcVideo }) {
           left: '50%',
           transform: 'translate(-50%, -50%)' // Center the video
         }}
-        autoPlay
-        muted
-        loop
+        autoPlay // Autoplay on all devices
+        playsInline // Ensures inline playback on mobile to avoid fullscreen
+        muted // Muted, as many browsers do not allow autoplay with sound
+        loop // Loop the video
       >
         <source src={srcVideo} type="video/mp4" />
       </video>
