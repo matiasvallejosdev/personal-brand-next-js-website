@@ -6,7 +6,7 @@
 ![Stars](https://img.shields.io/github/stars/matiasvallejosdev/personal-brand-next-js-website.svg)
 ![Watchers](https://img.shields.io/github/watchers/matiasvallejosdev/personal-brand-next-js-website.svg)
 
-🚀 Experience Minimalist in action: [View Production](https://minimalist-tasks.vercel.app/)
+🚀 Experience Personal Brand Website in action: [View Production](https://matiasvallejos.com/)
 
 ## 📘 Introduction
 
