@@ -1,4 +1,5 @@
 import { Montserrat as CustomFont } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/react";
 
 import { useMessages } from 'next-intl';
 
@@ -24,7 +25,7 @@ export default function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} className={`${customFont.variable}`}>
       <head>
-        <link rel="icon" href="/static/favicon.ico" />
+        <link rel="icon" href="/static/favicon.ico" sizes="256x256" type="image/png" />
 
         <meta property="og:url" content={SITE.origin} />
         <meta property="og:type" content="website" />
@@ -49,6 +50,7 @@ export default function RootLayout({ children, params: { locale } }) {
         <Providers messages={messages} locale={locale}>
           {children}
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
